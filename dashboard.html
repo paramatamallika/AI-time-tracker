@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Time-Tracker | Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <h1>Dashboard</h1>
+</header>
+
+<nav>
+    <a href="home.html">Home</a>
+    <button class="logout" id="logoutBtn">Logout</button>
+</nav>
+
+<main>
+    <div class="feature">
+        <h2>Dashboard Section</h2>
+        <p>Summary of your tracked time and activity appears here.</p>
+    </div>
+</main>
+
+<script>
+    // Logout button
+    document.getElementById("logoutBtn").addEventListener("click", function() {
+        window.location.href = "index.html"; // back to login
+    });
+</script>
+</body>
+</html>
